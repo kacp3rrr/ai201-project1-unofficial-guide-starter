@@ -9,6 +9,7 @@
 
 ## Domain
 
+This system covers student-relevant food options in the immediate vicinity of CUNY Hunter College. Platforms like Yelp aggregate generalized public reviews, but don't take into account the context of what matters to a student of the college - factors like proximity, price, and speed of service, among other things.
 <!-- What topic or category of knowledge does your system cover?
      Why is this knowledge valuable, and why is it hard to find through official channels?
      Example: "Student reviews of CS professors at [university] — useful because official
@@ -24,16 +25,16 @@
 
 | # | Source | Type | URL or file path |
 |---|--------|------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 | Reddit | Thread on Food Recommendations near Hunter College |https://www.reddit.com/r/HunterCollege/comments/1j9nlfh/food_places_by_hunter/ |
+| 2 | Reddit | Another Thread on Food Recommendations| https://www.reddit.com/r/HunterCollege/comments/1fu67yc/food_spots/|
+| 3 | Reddit | Food Recommendation Thread with Focus on Affordability| https://www.reddit.com/r/HunterCollege/comments/1ovsxsd/good_affordable_food_rec/|
+| 4 |Yelp|Terry and Yaki Foodcart Reviews | https://www.yelp.com/biz/terry-and-yaki-new-york?osq=Terry+and+Yaki|
+| 5 |Yelp|Hunter College Cafeteria Reviews |https://www.yelp.com/biz/hunter-college-cafeteria-new-york |
+| 6 |Yelp |Hunter Delicatessen Reviews | https://www.yelp.com/biz/hunter-delicatessen-new-york|
+| 7 |Yelp |Chipotle near Hunter Reviews | https://www.yelp.com/biz/chipotle-mexican-grill-new-york-85|
+| 8 | Yelp|Tacombi near Hunter Reviews |https://www.yelp.com/biz/tacombi-upper-east-side-new-york-2 |
+| 9 |Yelp |Gourmet Bagel near Hunter Reviews | https://www.yelp.com/biz/gourmet-bagel-new-york|
+| 10 |Yelp |Korean Express near Hunter Reviews |https://www.yelp.com/biz/korean-express-new-york |
 
 ---
 
