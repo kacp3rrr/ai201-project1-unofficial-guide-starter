@@ -97,7 +97,7 @@ Context length would be a consideration, as most Yelp reviews and compacted redd
 flowchart LR
     A["Document Ingestion
     (.txt files)"] --> B["Chunking
-    (Fixed-size, 400 char
+    (Fixed-size, 400 char chunk size
     50 char overlap)"]
     B --> C["Embedding + Vector Store
     (all-MiniLM-L6-v2 + ChromaDB)"]
@@ -126,9 +126,10 @@ flowchart LR
      with my specified chunk size and overlap" is a plan. -->
 
 **Milestone 3 — Ingestion and chunking:**
-
+I'll give Claude my chunking strategy and document outline, and from that ask it to implement ingest.py, which loads txt fils from a documents directory, cleans the boilerplate data using RegEx patterns, and splits the cleaned text into fixed-size 400 character chunks, storing them in a persistent ChromaDB collection afterwards.
 
 **Milestone 4 — Embedding and retrieval:**
-
+I'll give Claude my retrieval approach section and the chunk-metadata structure generated from ingest, and ask it to generate a retrieval function in query.py to open the existing CDB collection, accept a query string, and return the top-5 most relevant chunks alongside the filenames and distance scores.
 
 **Milestone 5 — Generation and interface:**
+I'll give Claude my full planning.md file and query.py, and ask it to implement grounded generation using llama-3.3-70b-versatile, with a system prompt to restrict answers to specific given context only, and create a Gradio web interface that acts as the UI for the full RAG pipeline for this project.
